@@ -5,3 +5,5 @@ class CreateTaxis < ActiveRecord::Migration
     end
   end
 end
+rails g migration add_taxi_id_to_rides taxi_id:integer --no-test-framework
+# create_join_table :passengers, :taxis
